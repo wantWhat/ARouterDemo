@@ -36,7 +36,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="拦截器" />
-
+    <Button
+        android:id="@+id/intenerface_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服务" />
     <Button
         android:id="@+id/logout_btn"
         android:layout_width="wrap_content"

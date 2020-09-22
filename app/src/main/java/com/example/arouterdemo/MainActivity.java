@@ -117,6 +117,16 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        viewBinding.intenerfaceBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               /*HelloService service =  ARouter.getInstance().navigation(HelloService.class);
+               service.sayHello("hello");
+               service.sayBye("bye");*/
+              HelloService service = (HelloService) ARouter.getInstance().build(RouteConstant.HELLO_SERVICE).navigation();
+                service.sayHello("hello");
+            }
+        });
         viewBinding.logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

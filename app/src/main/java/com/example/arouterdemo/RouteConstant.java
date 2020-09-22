@@ -12,4 +12,5 @@ public class RouteConstant {
     public static final String URI_ACTIVITY = "/uri/target";
     public static final String JSONSERICE = "/demo/json";
     public static final String SECOND_ACTIVITY = "/demo/second";
+    public static final String HELLO_SERVICE = "/hello/service";
 }
